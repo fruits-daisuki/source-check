@@ -1,0 +1,6 @@
+interface:
+  display_name: "事実確認"
+  short_description: "検索の偏りと重複を抑え、外部事実の本文・出典・条件を確認します"
+  default_prompt: "$source-check を使って、判断に必要な資料を偏りなく確認し、本文の根拠・適用条件・未確認範囲を示してください。"
+policy:
+  allow_implicit_invocation: true
